@@ -1,0 +1,104 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Valid Login",
+        "description": "",
+        "id": "guru99-functions;valid-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10738626700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on home page",
+            "match": {
+              "location": "Step1Practice.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 53769800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Title of the page matches",
+            "match": {
+              "location": "Step1Practice.title_of_the_page_is_Guru_Bank()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 621450700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"mngr26593\" and \"1!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mngr26593",
+                  "offset": 13
+                },
+                {
+                  "val": "1!",
+                  "offset": 29
+                }
+              ],
+              "location": "Step1Practice.user_enters_and(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3221553300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Submit button",
+            "match": {
+              "location": "Step1Practice.user_clicks_on_Submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126669800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User verifies Profile ID",
+            "match": {
+              "location": "Step1Practice.user_verifies_Profile_ID()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5263940800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks log out",
+            "match": {
+              "location": "Step1Practice.user_clicks_log_out()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Guru99 Functions",
+    "description": "",
+    "id": "guru99-functions",
+    "keyword": "Feature",
+    "uri": "./src/test/java/features/loginPractice.feature"
+  }
+]
