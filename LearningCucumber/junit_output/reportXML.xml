@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="31.655114">
-<testcase classname="Bank Login via Maps" name="Cheking flow with Maps" time="31.655114">
-<system-out><![CDATA[Given User is on Bank Home Page.............................................passed
-When Title for the page is verified.........................................passed
-Then User enters username and password using Maps feature...................passed
-And User click on Login button and waits....................................passed
-Then User verifies the login profile ID.....................................passed
-Then User clicks on New Account creation link...............................passed
-And User creates account entering by giving all details.....................passed
-Then User clicks on Logout link and waits...................................passed
-And User closes the Browser and exits.......................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="19.387989">
+<testcase classname="Guru99 Functions" name="Valid Login" time="19.387989">
+<system-out><![CDATA[Given User is on home page..................................................passed
+When Title of the page matches..............................................passed
+Then User enters the credentials "mngr26593" and "1!".......................passed
+And User clicks on Submit button............................................passed
+Then User verifies Profile ID...............................................passed
+Then User clicks log out....................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
