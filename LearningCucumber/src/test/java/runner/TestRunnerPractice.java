@@ -8,22 +8,18 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions (
 		
-		features = "./src/test/java/features/loginPractice.feature",
+		//To run different step definition change the path of the feature file here
+		
+		features = "./src/test/java/features/LoginHooksPractice.feature",
 		glue = {"stepDefinition"},
 		format = {"pretty", "html:test-output", "json:json_output/reportJSN.json", "junit:junit_output/reportXML.xml"},
 		monochrome = true,
 		dryRun = false,
 		strict = true,
-		tags = {"@Valid", "~@Invalid"}
-		
-		
+		tags = {"@ValidCheck, @ValidLogin, ~@Invalid"}
+
 		
 		)
-
-
-
-
-
 
 
 public class TestRunnerPractice {

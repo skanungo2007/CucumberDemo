@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="38.670401">
-<testcase classname="Guru99 Functions" name="Valid login check" time="21.37724">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="36.00505">
+<testcase classname="Guru99 Functions" name="Valid login check" time="20.937312">
 <system-out><![CDATA[Given User is on home page..................................................passed
 When Title of the page matches..............................................passed
 Then User enters the credentials "mngr26593" and "1!".......................passed
@@ -9,7 +9,7 @@ Then User verifies Profile ID...............................................pass
 Then User clicks log out....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Guru99 Functions" name="Valid login check Second Scenario" time="17.293161">
+<testcase classname="Guru99 Functions" name="Valid login check Second Scenario" time="15.067738">
 <system-out><![CDATA[Given User is on home page for Second Scenario..............................passed
 When Title of the page matches for Second Scenario..........................passed
 Then User enters the credentials for Second scenario "mngr329367" and "YpyrEda".passed

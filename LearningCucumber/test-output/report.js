@@ -1,10 +1,18 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("./src/test/java/features/loginPractice.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("./src/test/java/features/LoginHooksPractice.feature");
 formatter.feature({
   "line": 1,
   "name": "Guru99 Functions",
   "description": "",
   "id": "guru99-functions",
   "keyword": "Feature"
+});
+formatter.before({
+  "duration": 290100,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 9647669099,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 4,
@@ -16,7 +24,7 @@ formatter.scenario({
   "tags": [
     {
       "line": 3,
-      "name": "@Valid"
+      "name": "@ValidCheck"
     }
   ]
 });
@@ -51,17 +59,17 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Step1Practice.user_is_on_home_page()"
+  "location": "Step5PracticeHooks.user_is_on_home_page()"
 });
 formatter.result({
-  "duration": 13267286200,
+  "duration": 2744850600,
   "status": "passed"
 });
 formatter.match({
-  "location": "Step1Practice.title_of_the_page_is_Guru_Bank()"
+  "location": "Step5PracticeHooks.title_of_the_page_is_Guru_Bank()"
 });
 formatter.result({
-  "duration": 25201399,
+  "duration": 29165000,
   "status": "passed"
 });
 formatter.match({
@@ -75,35 +83,51 @@ formatter.match({
       "offset": 45
     }
   ],
-  "location": "Step1Practice.user_enters_the_credentials_and(String,String)"
+  "location": "Step5PracticeHooks.user_enters_the_credentials_and(String,String)"
 });
 formatter.result({
-  "duration": 512172801,
+  "duration": 478586101,
   "status": "passed"
 });
 formatter.match({
-  "location": "Step1Practice.user_clicks_on_Submit_button()"
+  "location": "Step5PracticeHooks.user_clicks_on_Submit_button()"
 });
 formatter.result({
-  "duration": 2687412200,
+  "duration": 2898712800,
   "status": "passed"
 });
 formatter.match({
-  "location": "Step1Practice.user_verifies_Profile_ID()"
+  "location": "Step5PracticeHooks.user_verifies_Profile_ID()"
 });
 formatter.result({
-  "duration": 83380799,
+  "duration": 96893800,
   "status": "passed"
 });
 formatter.match({
-  "location": "Step1Practice.user_clicks_log_out()"
+  "location": "Step5PracticeHooks.user_clicks_log_out()"
 });
 formatter.result({
-  "duration": 4801786200,
+  "duration": 4062711100,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 296501,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 978136700,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 164100,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 7890463900,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 15,
+  "line": 13,
   "name": "Valid login check Second Scenario",
   "description": "",
   "id": "guru99-functions;valid-login-check-second-scenario",
@@ -111,53 +135,53 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 14,
-      "name": "@Valid"
+      "line": 12,
+      "name": "@ValidLogin"
     }
   ]
 });
 formatter.step({
-  "line": 16,
+  "line": 14,
   "name": "User is on home page for Second Scenario",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 17,
+  "line": 15,
   "name": "Title of the page matches for Second Scenario",
   "keyword": "When "
 });
 formatter.step({
-  "line": 18,
+  "line": 16,
   "name": "User enters the credentials for Second scenario \"mngr329367\" and \"YpyrEda\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 19,
+  "line": 17,
   "name": "User clicks on Submit button in Second Scenario",
   "keyword": "And "
 });
 formatter.step({
-  "line": 20,
+  "line": 18,
   "name": "User verifies Profile ID in Second Scenario",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 21,
+  "line": 19,
   "name": "User clicks log out and validates Second scenario",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Step1Practice.user_is_on_home_page_for_Second_Scenario()"
+  "location": "Step5PracticeHooks.user_is_on_home_page_for_Second_Scenario()"
 });
 formatter.result({
-  "duration": 8713817800,
+  "duration": 1040916199,
   "status": "passed"
 });
 formatter.match({
-  "location": "Step1Practice.title_of_the_page_matches_for_Second_Scenario()"
+  "location": "Step5PracticeHooks.title_of_the_page_matches_for_Second_Scenario()"
 });
 formatter.result({
-  "duration": 22039199,
+  "duration": 15953800,
   "status": "passed"
 });
 formatter.match({
@@ -171,31 +195,39 @@ formatter.match({
       "offset": 66
     }
   ],
-  "location": "Step1Practice.user_enters_the_credentials_for_Second_scenario_and(String,String)"
+  "location": "Step5PracticeHooks.user_enters_the_credentials_for_Second_scenario_and(String,String)"
 });
 formatter.result({
-  "duration": 514142500,
+  "duration": 462263099,
   "status": "passed"
 });
 formatter.match({
-  "location": "Step1Practice.user_clicks_on_Submit_button_in_Second_Scenario()"
+  "location": "Step5PracticeHooks.user_clicks_on_Submit_button_in_Second_Scenario()"
 });
 formatter.result({
-  "duration": 2692920600,
+  "duration": 2902150800,
   "status": "passed"
 });
 formatter.match({
-  "location": "Step1Practice.user_verifies_Profile_ID_in_Second_Scenario()"
+  "location": "Step5PracticeHooks.user_verifies_Profile_ID_in_Second_Scenario()"
 });
 formatter.result({
-  "duration": 71490701,
+  "duration": 82798900,
   "status": "passed"
 });
 formatter.match({
-  "location": "Step1Practice.user_clicks_log_out_and_validates_Second_scenario()"
+  "location": "Step5PracticeHooks.user_clicks_log_out_and_validates_Second_scenario()"
 });
 formatter.result({
-  "duration": 5278750400,
+  "duration": 1601729199,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 1071017800,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 280301,
   "status": "passed"
 });
 });

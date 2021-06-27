@@ -3,40 +3,80 @@
     "line": 1,
     "elements": [
       {
+        "before": [
+          {
+            "result": {
+              "duration": 290100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step5PracticeHooks.initialize()"
+            }
+          },
+          {
+            "result": {
+              "duration": 9647669099,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step5PracticeHooks.launchBrowser()"
+            }
+          }
+        ],
         "line": 4,
         "name": "Valid login check",
         "description": "",
         "id": "guru99-functions;valid-login-check",
+        "after": [
+          {
+            "result": {
+              "duration": 296501,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step5PracticeHooks.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 978136700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step5PracticeHooks.quitBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 13267286200,
+              "duration": 2744850600,
               "status": "passed"
             },
             "line": 5,
             "name": "User is on home page",
             "match": {
-              "location": "Step1Practice.user_is_on_home_page()"
+              "location": "Step5PracticeHooks.user_is_on_home_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 25201399,
+              "duration": 29165000,
               "status": "passed"
             },
             "line": 6,
             "name": "Title of the page matches",
             "match": {
-              "location": "Step1Practice.title_of_the_page_is_Guru_Bank()"
+              "location": "Step5PracticeHooks.title_of_the_page_is_Guru_Bank()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 512172801,
+              "duration": 478586101,
               "status": "passed"
             },
             "line": 7,
@@ -52,43 +92,43 @@
                   "offset": 45
                 }
               ],
-              "location": "Step1Practice.user_enters_the_credentials_and(String,String)"
+              "location": "Step5PracticeHooks.user_enters_the_credentials_and(String,String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 2687412200,
+              "duration": 2898712800,
               "status": "passed"
             },
             "line": 8,
             "name": "User clicks on Submit button",
             "match": {
-              "location": "Step1Practice.user_clicks_on_Submit_button()"
+              "location": "Step5PracticeHooks.user_clicks_on_Submit_button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 83380799,
+              "duration": 96893800,
               "status": "passed"
             },
             "line": 9,
             "name": "User verifies Profile ID",
             "match": {
-              "location": "Step1Practice.user_verifies_Profile_ID()"
+              "location": "Step5PracticeHooks.user_verifies_Profile_ID()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 4801786200,
+              "duration": 4062711100,
               "status": "passed"
             },
             "line": 10,
             "name": "User clicks log out",
             "match": {
-              "location": "Step1Practice.user_clicks_log_out()"
+              "location": "Step5PracticeHooks.user_clicks_log_out()"
             },
             "keyword": "Then "
           }
@@ -96,48 +136,88 @@
         "tags": [
           {
             "line": 3,
-            "name": "@Valid"
+            "name": "@ValidCheck"
           }
         ]
       },
       {
-        "line": 15,
+        "before": [
+          {
+            "result": {
+              "duration": 164100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step5PracticeHooks.initialize()"
+            }
+          },
+          {
+            "result": {
+              "duration": 7890463900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step5PracticeHooks.checkBannerSecondScenario()"
+            }
+          }
+        ],
+        "line": 13,
         "name": "Valid login check Second Scenario",
         "description": "",
         "id": "guru99-functions;valid-login-check-second-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 1071017800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step5PracticeHooks.quitBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 280301,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step5PracticeHooks.matchBannerSecondScenario()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 8713817800,
+              "duration": 1040916199,
               "status": "passed"
             },
-            "line": 16,
+            "line": 14,
             "name": "User is on home page for Second Scenario",
             "match": {
-              "location": "Step1Practice.user_is_on_home_page_for_Second_Scenario()"
+              "location": "Step5PracticeHooks.user_is_on_home_page_for_Second_Scenario()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 22039199,
+              "duration": 15953800,
               "status": "passed"
             },
-            "line": 17,
+            "line": 15,
             "name": "Title of the page matches for Second Scenario",
             "match": {
-              "location": "Step1Practice.title_of_the_page_matches_for_Second_Scenario()"
+              "location": "Step5PracticeHooks.title_of_the_page_matches_for_Second_Scenario()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 514142500,
+              "duration": 462263099,
               "status": "passed"
             },
-            "line": 18,
+            "line": 16,
             "name": "User enters the credentials for Second scenario \"mngr329367\" and \"YpyrEda\"",
             "match": {
               "arguments": [
@@ -150,51 +230,51 @@
                   "offset": 66
                 }
               ],
-              "location": "Step1Practice.user_enters_the_credentials_for_Second_scenario_and(String,String)"
+              "location": "Step5PracticeHooks.user_enters_the_credentials_for_Second_scenario_and(String,String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 2692920600,
+              "duration": 2902150800,
               "status": "passed"
             },
-            "line": 19,
+            "line": 17,
             "name": "User clicks on Submit button in Second Scenario",
             "match": {
-              "location": "Step1Practice.user_clicks_on_Submit_button_in_Second_Scenario()"
+              "location": "Step5PracticeHooks.user_clicks_on_Submit_button_in_Second_Scenario()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 71490701,
+              "duration": 82798900,
               "status": "passed"
             },
-            "line": 20,
+            "line": 18,
             "name": "User verifies Profile ID in Second Scenario",
             "match": {
-              "location": "Step1Practice.user_verifies_Profile_ID_in_Second_Scenario()"
+              "location": "Step5PracticeHooks.user_verifies_Profile_ID_in_Second_Scenario()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 5278750400,
+              "duration": 1601729199,
               "status": "passed"
             },
-            "line": 21,
+            "line": 19,
             "name": "User clicks log out and validates Second scenario",
             "match": {
-              "location": "Step1Practice.user_clicks_log_out_and_validates_Second_scenario()"
+              "location": "Step5PracticeHooks.user_clicks_log_out_and_validates_Second_scenario()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 14,
-            "name": "@Valid"
+            "line": 12,
+            "name": "@ValidLogin"
           }
         ]
       }
@@ -203,6 +283,6 @@
     "description": "",
     "id": "guru99-functions",
     "keyword": "Feature",
-    "uri": "./src/test/java/features/loginPractice.feature"
+    "uri": "./src/test/java/features/LoginHooksPractice.feature"
   }
 ]

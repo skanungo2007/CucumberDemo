@@ -1,6 +1,6 @@
 Feature: Guru99 Functions
 
-	@ValidCheck1
+	@ValidCheck
 	Scenario: Valid login check 
 	Given User is on home page
 	When Title of the page matches
@@ -8,9 +8,8 @@ Feature: Guru99 Functions
 	And User clicks on Submit button
 	Then User verifies Profile ID
 	Then User clicks log out
-	
 
-	@ValidCheck2
+	@ValidLogin
 	Scenario: Valid login check Second Scenario
 	Given User is on home page for Second Scenario
 	When Title of the page matches for Second Scenario
@@ -18,9 +17,7 @@ Feature: Guru99 Functions
 	And User clicks on Submit button in Second Scenario
 	Then User verifies Profile ID in Second Scenario
 	Then User clicks log out and validates Second scenario
-	
-	
-	
+
 	@Invalid
 	Scenario: Valid Login
 	Given User is on home page
