@@ -1,6 +1,6 @@
 Feature: Bank Login
 
-Scenario Outline:
+Scenario Outline: Multiple login check with outline
 	Given User is on HomePage
 	When Title of the page match
 	Then User enters "<username>" and "<password>"

@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions (
 		
-		features = "./src/test/java/features/LoginPracticeScenarioOutline.feature",
+		features = "./src/test/java/features/loginDataTablePractice.feature",
 		glue = {"stepDefinition"},
 		format = {"pretty", "html:test-output", "json:json_output/reportJSN.json", "junit:junit_output/reportXML.xml"},
 		monochrome = true,
