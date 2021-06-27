@@ -4,15 +4,15 @@
     "elements": [
       {
         "line": 4,
-        "name": "Valid Login",
+        "name": "Valid login check",
         "description": "",
-        "id": "guru99-functions;valid-login",
+        "id": "guru99-functions;valid-login-check",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 10605266700,
+              "duration": 13267286200,
               "status": "passed"
             },
             "line": 5,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 32243900,
+              "duration": 25201399,
               "status": "passed"
             },
             "line": 6,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 495726300,
+              "duration": 512172801,
               "status": "passed"
             },
             "line": 7,
@@ -58,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 2937344000,
+              "duration": 2687412200,
               "status": "passed"
             },
             "line": 8,
@@ -70,7 +70,7 @@
           },
           {
             "result": {
-              "duration": 85653900,
+              "duration": 83380799,
               "status": "passed"
             },
             "line": 9,
@@ -82,7 +82,7 @@
           },
           {
             "result": {
-              "duration": 5231754499,
+              "duration": 4801786200,
               "status": "passed"
             },
             "line": 10,
@@ -96,6 +96,104 @@
         "tags": [
           {
             "line": 3,
+            "name": "@Valid"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Valid login check Second Scenario",
+        "description": "",
+        "id": "guru99-functions;valid-login-check-second-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8713817800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User is on home page for Second Scenario",
+            "match": {
+              "location": "Step1Practice.user_is_on_home_page_for_Second_Scenario()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22039199,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Title of the page matches for Second Scenario",
+            "match": {
+              "location": "Step1Practice.title_of_the_page_matches_for_Second_Scenario()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 514142500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters the credentials for Second scenario \"mngr329367\" and \"YpyrEda\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mngr329367",
+                  "offset": 49
+                },
+                {
+                  "val": "YpyrEda",
+                  "offset": 66
+                }
+              ],
+              "location": "Step1Practice.user_enters_the_credentials_for_Second_scenario_and(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2692920600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks on Submit button in Second Scenario",
+            "match": {
+              "location": "Step1Practice.user_clicks_on_Submit_button_in_Second_Scenario()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71490701,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User verifies Profile ID in Second Scenario",
+            "match": {
+              "location": "Step1Practice.user_verifies_Profile_ID_in_Second_Scenario()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5278750400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User clicks log out and validates Second scenario",
+            "match": {
+              "location": "Step1Practice.user_clicks_log_out_and_validates_Second_scenario()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
             "name": "@Valid"
           }
         ]
